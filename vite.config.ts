@@ -10,5 +10,6 @@ export default defineConfig({
             '@': resolve(__dirname, './src'),
             '@device': resolve(__dirname, './src/device')
         }
-    }
+    },
+    base: '/light/'
 });
